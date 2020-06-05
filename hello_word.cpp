@@ -1,7 +1,10 @@
 #include <iostream>
+#include <string> 
 using namespace std;
 int main()
 {
-cout << "Hello world";
+string name; 
+cin << name; 
+cout <<name<<  "Hello world";
 return 0;
 }
